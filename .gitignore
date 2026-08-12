@@ -1,2 +1,4 @@
 /dist/
 /*.tar.gz
+/assistant
+/dist/
