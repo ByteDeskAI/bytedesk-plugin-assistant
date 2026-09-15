@@ -11,6 +11,6 @@ package is the sole provider.
 
 ```bash
 go build -o assistant ./cmd/assistant
-go run github.com/ByteDeskAI/bytedesk-remote-gateway-plugin-sdk/cmd/plugin-sdk@v0.1.0 validate --dir .
-go run github.com/ByteDeskAI/bytedesk-remote-gateway-plugin-sdk/cmd/plugin-sdk@v0.1.0 pack --dir . --out dist
+go run github.com/ByteDeskAI/bytedesk-remote-gateway-plugin-sdk/cmd/plugin-sdk@v0.4.0-rc.12 validate --dir .
+go run github.com/ByteDeskAI/bytedesk-remote-gateway-plugin-sdk/cmd/plugin-sdk@v0.4.0-rc.12 pack --dir . --out dist
 ```
